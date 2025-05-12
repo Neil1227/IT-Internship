@@ -69,22 +69,20 @@ header {
     color: var(--text-color);
 }
 
+.hero-content {
+    text-align: center;
+}
 
 .custom-button {
-    position: relative; 
-    margin-top: 5px;
-    top: 0%;
-    right: 20px; 
     background-color: var(--button-color);
     color: var(--white-color);
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 8px;
     cursor: pointer;
-    height: 60px;
-    width: 200px;
-    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
 }
 .custom-button:hover {
 background-color: #91be66;
@@ -317,9 +315,9 @@ transition: all 0.5s ease-out;
         height: 40px;
     }
     .custom-button {
-        height: 45px;
-        width: 150px;
-        font-size: 0.9rem;
+        height: 30px;
+        width: 120px;
+        font-size: .8rem;
     }
     .prev-btn {
         left: 10px;
